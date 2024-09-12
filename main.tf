@@ -24,7 +24,7 @@ resource "docker_container" "nginx" {
   }
     volumes {
     container_path = "/usr/share/nginx/html/index.html"
-    host_path      = "/home/avelino/learn-terraform-docker-container/index.html"
+    host_path      = "/home/avelino/Terraform_Docker/index.html"
     read_only      = true
   }
 }
