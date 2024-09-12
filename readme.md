@@ -10,7 +10,7 @@ This repository teaches you the basics of building an Nginx server using Terrafo
 
     volumes {
     container_path = "/usr/share/nginx/html/index.html"
-    host_path      = "/home/avelino/learn-terraform-docker-container/index.html"
+    host_path      = "<your-path-before-clone_repo>/Terraform_Docker/index.html"
     read_only      = true
   }
 }
